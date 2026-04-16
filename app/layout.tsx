@@ -18,6 +18,8 @@ const manrope = Manrope({
   subsets: ["latin"],
 });
 
+import WhatsAppFloat from "@/components/WhatsAppFloat";
+
 export const metadata: Metadata = {
   title: "Fajarcode | Web Porto",
   description: "Surgical precision in digital interface construction. We engineer high-performance ecosystems.",
@@ -39,7 +41,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col relative">
+        {children}
+        <WhatsAppFloat />
+      </body>
     </html>
   );
 }

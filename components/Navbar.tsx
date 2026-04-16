@@ -63,9 +63,14 @@ const Navbar = () => {
           );
         })}
       </div>
-      <button className="bg-primary-container text-on-primary-fixed px-6 py-2 font-headline font-bold uppercase text-xs tracking-widest hover:opacity-70 transition-opacity neon-glow">
+      <a
+        href="https://wa.me/62895614790050?text=Hi%20Fajar!%20I'm%20interested%20in%20discussing%20a%20project."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-primary-container text-on-primary-fixed px-6 py-2 font-headline font-bold uppercase text-xs tracking-widest hover:opacity-70 transition-opacity neon-glow"
+      >
         HIRE_ME
-      </button>
+      </a>
     </nav>
   );
 };
