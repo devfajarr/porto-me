@@ -19,7 +19,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "ARCHITECT_OS | Digital Innovation Portfolio",
+  title: "Fajarcode | Web Porto",
   description: "Surgical precision in digital interface construction. We engineer high-performance ecosystems.",
 };
 
