@@ -252,7 +252,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="md:col-span-5 overflow-hidden h-[500px] relative bg-zinc-100">
+            <div className="md:col-span-5 overflow-hidden h-[400px] md:h-full relative bg-zinc-100">
               <Image
                 src="/img/profile.png"
                 alt="Portrait of Fajar"
