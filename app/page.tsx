@@ -54,7 +54,7 @@ export default function Home() {
                     </span>
                   </div>
                 </div>
-                <button className="group relative flex items-center gap-4 bg-on-surface text-surface-container-lowest px-12 py-7 font-headline font-bold uppercase tracking-widest text-sm hover:bg-primary-container hover:text-on-primary-fixed transition-all duration-300 overflow-hidden">
+                <a href="#about" className="group relative flex items-center gap-4 bg-on-surface text-surface-container-lowest px-12 py-7 font-headline font-bold uppercase tracking-widest text-sm hover:bg-primary-container hover:text-on-primary-fixed transition-all duration-300 overflow-hidden">
                   <span className="relative z-10 flex items-center gap-3">
                     ABOUT_ME
                     <span className="material-symbols-outlined group-hover:translate-x-2 transition-transform text-xl">
@@ -62,7 +62,7 @@ export default function Home() {
                     </span>
                   </span>
                   <div className="absolute inset-0 bg-primary-container translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-                </button>
+                </a>
               </div>
             </div>
 
